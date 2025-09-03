@@ -30,6 +30,11 @@ select*from Courses;
 Alter table Courses add column Location Varchar(30);
 select*from Courses;
 
+#Rename
+Alter table Courses rename to Pw_courses;
+select*from Pw_courses;
+
+
 #drop 
 Alter table Courses drop column Location;
 select*from courses;
